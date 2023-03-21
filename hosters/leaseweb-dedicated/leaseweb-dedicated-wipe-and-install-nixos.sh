@@ -165,7 +165,7 @@ set -u -x
 
 # Keep in sync with `system.stateVersion` set below!
 # nix-channel --add https://nixos.org/channels/nixos-20.03 nixpkgs
-nix-channel --add https://nixos.org/channels/nixos-20.03 nixpkgs
+nix-channel --add https://nixos.org/channels/nixos-22.11 nixpkgs
 nix-channel --update
 
 # Getting NixOS installation tools
